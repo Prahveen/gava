@@ -1,0 +1,151 @@
+
+body {
+    background-color: white;
+	margin: 0px;
+    padding: 0px;
+	}
+
+.header {
+    background-color: #013e7f;
+    height: 80px;
+	width:100%;	
+	margin: 0px;
+	padding: 0px;
+}
+
+#plate {
+	clear: both;
+	width: 100%;
+	height: 35px;
+	background: url(image/home.png) no-repeat;
+}
+
+#plate ul {
+	float: left;
+	width: 600px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#plate ul li {
+	float: left;
+	display: block;
+	width: 100px;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	text-align: center;
+	background: url(image/home_div.png) no-repeat right center;
+}
+
+
+#plate ul li a {
+	display: block;
+	width: 100px;
+	height: 30px;
+	padding: 10px 0 0;
+	margin: 0;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	color: #0d474c;	
+	font-weight: 700;
+	outline: none;
+	border: none;
+
+}
+
+#plate ul li a:hover, #plate ul li .current { 
+	color: #000;  
+}
+
+#plate ul .last { 
+	background: none; 
+}
+
+
+#search_box { 
+	float: right; 
+	margin: 10px 10px 0 0; 
+	width: 290px; 
+	height: 25px; 
+	background: url(image/search.png) no-repeat; 
+}
+
+
+
+#search_box form { 
+	clear: both; 
+	width: 290px; 
+	height: 25px; 
+	padding: 0; 
+	margin: 5px 0 0 0; 
+} 
+
+#searchfield { 
+	float: left; 
+	display: block; 
+	height: 16px; 
+	width: 220px; 
+	padding: 5px; 
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px; 
+	color: #fff; 
+	line-height: 16px; 
+	background: none; 
+	border: none; 
+} 
+
+#searchbutton { 
+	float: right; 
+	display: block; 
+	height: 26px; 
+	width: 30px; 
+	padding: 0; 
+	margin: 0; 
+	cursor: pointer; 
+	background: none; 
+	border: none; 
+}
+
+#location1 {
+	clear: both;
+	width: 500px; 
+	height: 590px;
+	margin:-10px 0 0 190px;
+	padding: 0px;
+    background-color:#dbd5f9;
+}
+
+#space {
+padding:5px;
+margin-left: 15px;
+}
+
+.cleaner { clear: both }
+.h10 { height: 5px }
+.h20 { height: 10px }
+.h30 { height: 20px }
+
+
+#location2 {
+	clear: both;
+	width: 400px;
+	height: 590px;
+	margin:-10px 218.9px 0 0;
+	padding: 0px;
+	background-color:#dbd5f9;
+	
+}
+
+#map { 
+	width: 336px; 
+	height: 207px; 
+	border: 5px solid #999; 
+	padding: 4px; 
+	}
+
+#footer {
+    background-color: #HEXCODEHERE;
+}
